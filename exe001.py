@@ -35,3 +35,6 @@ print('A soma vale {}, o produto é {}, \n a divisão é {:.3f} '.format(s, m, d
 print('A divisão inteira é {} e a potência é {}'.format(di, e))
 
 
+num = int(input('Digite um número: '))
+print('Analisando o valor {}, seu antecessor é {} e o sucessor é {}'.format(num, (num-1), (num+1)))
+
