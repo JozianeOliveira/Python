@@ -38,3 +38,9 @@ print('A divisão inteira é {} e a potência é {}'.format(di, e))
 num = int(input('Digite um número: '))
 print('Analisando o valor {}, seu antecessor é {} e o sucessor é {}'.format(num, (num-1), (num+1)))
 
+
+n3=int(input('Digite um número: '))
+print('O dobro de {} vale {}.'.format(n3, (n3*2)))
+print('O triplo de {} vale {}.'.format(n3, (n3*3)))
+print('A raiz quadrada de {} é igual a {:.2f}.'.format(n3, (n3**(1/2))))
+
